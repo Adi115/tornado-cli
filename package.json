@@ -1,0 +1,30 @@
+{
+  "name": "cli-tornado",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bignumber.js": "^9.0.0",
+    "circom": "0.0.35",
+    "circomlib": "git+https://github.com/Adi115/circomlib.git#21fd88c4ce9d2893b4f660eb2e34ae1b1f8f1edc",
+    "commander": "^5.1.0",
+    "dotenv": "^8.2.0",
+    "fixed-merkle-tree": "git+https://github.com/Adi115/fixed-merkle-tree-0.6.1.git",
+    "gas-price-oracle": "^0.4.4",
+    "private-ip": "^2.3.3",
+    "snarkjs": "git+https://github.com/Adi115/snarkjs.git#9d23bdaa0fb53139561bfa8c82c1f28d676b12b2",
+    "socks-proxy-agent": "^6.1.1",
+    "web3": "^1.6.1",
+    "web3-providers-http": "file:local_modules/web3-providers-http",
+    "websnark": "git+https://github.com/Adi115/websnark.git#664751cc22ee505778f3ad364d83dee04f4cbe5e"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0"
+  }
+}
